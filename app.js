@@ -22,9 +22,11 @@ chk.addEventListener("click", () => {
   if (i % 2 == 0) {
     cont.style.color = "black";
     cont.style.paddingLeft = "590px";
+    cont.backgroundPosition = "top -300px";
   } else {
     cont.style.color = "white";
     cont.style.paddingLeft = "0";
+    cont.backgroundPosition = "top -300px";
   }
   i++;
 });
