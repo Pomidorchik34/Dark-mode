@@ -17,9 +17,16 @@ const languages = {
   uzbp: "Dizayn o'yiningizni oshirishga tayyormisiz?",
   uzbbtm: "sinab ko'ring",
 };
+let i = 2;
 chk.addEventListener("click", () => {
-  cont.style.color = "black";
-  cont.style.paddingLeft = "590px";
+  if (i % 2 == 0) {
+    cont.style.color = "black";
+    cont.style.paddingLeft = "590px";
+  } else {
+    cont.style.color = "white";
+    cont.style.paddingLeft = "0";
+  }
+  i++;
 });
 
 btn2.addEventListener("click", () => {
@@ -31,7 +38,7 @@ btn2.addEventListener("click", () => {
   btn.style.fontFamily = "sans-serif";
 });
 btn3.addEventListener("click", () => {
-  hg.textContent = "Qulfini ochingning kuchi Ijodkorlik Figma bilan!";
+  hg.textContent = languages.uzb;
   hgp.textContent = languages.uzbp;
   btn.textContent = languages.uzbbtm;
   hg.style.fontFamily = "sans-serif";
@@ -39,8 +46,8 @@ btn3.addEventListener("click", () => {
   btn.style.fontFamily = "sans-serif";
 });
 btn1.addEventListener("click", () => {
-  hg.textContent = "Unlock the Power of Creativity with Figma!";
-  hgp.textContent = "Ready to elevate your design game?";
+  hg.textContent = languages.eng;
+  hgp.textContent = languages.engp;
   btn.textContent = languages.engbtn;
   hg.style.fontFamily = "sans-serif";
   hgp.style.fontFamily = "sans-serif";
