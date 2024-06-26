@@ -15,7 +15,7 @@ const languages = {
   rusbtn: "Попробовать",
   uzb: "Qulfini ochingning kuchi Ijodkorlik Figma bilan!",
   uzbp: "Dizayn o'yiningizni oshirishga tayyormisiz?",
-  uzbbtm: "sinab ko'ring",
+  uzbbtm: "sinab ko'rish",
 };
 let i = 2;
 chk.addEventListener("click", () => {
