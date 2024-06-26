@@ -192,6 +192,8 @@ body {
   font-size: 20px;
   transition: 0.3s;
   &:hover {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     margin-left: 5px;
   }
 }
@@ -204,6 +206,8 @@ body {
   font-size: 20px;
   transition: 0.3s;
   &:hover {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     margin-left: 5px;
   }
 }
@@ -215,7 +219,10 @@ body {
   font-weight: 700;
   font-size: 20px;
   transition: 0.3s;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   &:hover {
+    border-radius: 20px;
     margin-left: 5px;
   }
 }
